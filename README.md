@@ -1,2 +1,4 @@
 Because Vyper is a language designed to create smart contracts, I found the easist way to compile and run my function was through https://remix.ethereum.org/. 
-They offer an online environment to compile, deploy, and then call functions from contracts to test and learn. 
+They offer an online environment to compile, deploy, and then call functions from contracts to test and learn. In order to run the code in remix, you need to navigate to the plugins button, bottom right corner, search the vyper plugin, and enable it. Then you can compile 
+the file, ensure you are using the Vyper compiler tab, and not the Solidity compiler. After the contract is compiled, navigate to the deploy/run transactions tab and deploy helloworld.vy. The default settings are fine. From there, it will appear under deployed contracts
+and you can call the "hello" function, which will then return "Hello World" below the button to call the function. 
